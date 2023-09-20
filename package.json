@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "2023.09.20",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -n changelog-config.cjs -i CHANGELOG.md -s",
+    "release": "node scripts/release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamerif/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamerif/test/issues"
+  },
+  "homepage": "https://github.com/lamerif/test#readme",
+  "devDependencies": {
+    "conventional-changelog-cli": "^4.1.0",
+    "enquirer": "^2.4.1",
+    "execa": "^8.0.1",
+    "minimist": "^1.2.8"
+  }
+}
